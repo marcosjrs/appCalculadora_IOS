@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,11 +18,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhf-yw-nbx">
-                                <rect key="frame" x="0.0" y="430" width="104" height="102"/>
+                                <rect key="frame" x="0.0" y="390" width="94" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -30,11 +30,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xMc-71-wOt"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e8U-go-uut"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnV-Nf-5uw">
-                                <rect key="frame" x="104" y="430" width="104" height="102"/>
+                                <rect key="frame" x="94" y="390" width="94" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -42,11 +42,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WeY-Fk-woR"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NXk-sp-Im5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lgd-DB-VHI">
-                                <rect key="frame" x="208" y="430" width="104" height="102"/>
+                                <rect key="frame" x="188" y="390" width="95" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -54,11 +54,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9bt-Vg-eWe"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qbL-nM-NeF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0j8-HF-0Lw">
-                                <rect key="frame" x="312" y="430" width="102" height="102"/>
+                                <rect key="frame" x="283" y="390" width="92" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99548656089999998" green="0.58835399070000005" blue="0.22333305989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -66,11 +66,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressMultiplicacion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ccE-Yr-aj0"/>
+                                    <action selector="pulsarOperador:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ecl-Ul-1oN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncW-Nf-LxC">
-                                <rect key="frame" x="0.0" y="532" width="104" height="102"/>
+                                <rect key="frame" x="0.0" y="482" width="94" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -78,11 +78,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E9N-vM-e0E"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="suv-O1-LX4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6Z-WY-JU7">
-                                <rect key="frame" x="104" y="532" width="104" height="102"/>
+                                <rect key="frame" x="94" y="482" width="94" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -90,11 +90,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressDecimal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OCE-U2-Sgu"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qP5-ch-ugf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Yk-e5-iXW">
-                                <rect key="frame" x="208" y="532" width="104" height="102"/>
+                                <rect key="frame" x="188" y="482" width="95" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99548656089999998" green="0.58835399070000005" blue="0.22333305989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -102,11 +102,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Rs-46-uh0"/>
+                                    <action selector="pulsarBorrar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7FZ-ny-CKL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMI-ZE-vTR">
-                                <rect key="frame" x="312" y="532" width="102" height="102"/>
+                                <rect key="frame" x="283" y="482" width="92" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99548656089999998" green="0.58835399070000005" blue="0.22333305989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -114,11 +114,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressDivision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y8E-UP-gOd"/>
+                                    <action selector="pulsarOperador:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NCs-Ja-8oZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yx2-To-eFE">
-                                <rect key="frame" x="0.0" y="634" width="104" height="102"/>
+                                <rect key="frame" x="0.0" y="575" width="94" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99548656089999998" green="0.58835399070000005" blue="0.22333305989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -126,11 +126,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressM:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sCw-5h-f24"/>
+                                    <action selector="pulsarOperador:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IFc-Gh-V2E"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6AJ-P5-2VG">
-                                <rect key="frame" x="104" y="634" width="104" height="102"/>
+                                <rect key="frame" x="94" y="575" width="94" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99548656089999998" green="0.58835399070000005" blue="0.22333305989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -138,11 +138,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="presMPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sMs-bV-kYc"/>
+                                    <action selector="pulsarOperador:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sCe-F9-0Fm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0p-Bg-Cuk">
-                                <rect key="frame" x="208" y="634" width="104" height="102"/>
+                                <rect key="frame" x="188" y="575" width="95" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99548656089999998" green="0.58835399070000005" blue="0.22333305989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -150,11 +150,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressMMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KdJ-P1-BUJ"/>
+                                    <action selector="pulsarOperador:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lqn-5r-EB3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAQ-Ga-aPw">
-                                <rect key="frame" x="312" y="634" width="102" height="102"/>
+                                <rect key="frame" x="283" y="575" width="92" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99548656089999998" green="0.58835399070000005" blue="0.22333305989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -162,11 +162,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressIgual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iHa-oJ-rM3"/>
+                                    <action selector="pulsarIgual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HKO-cL-1gT"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOJ-GF-lZv">
-                                <rect key="frame" x="403" y="0.0" width="11" height="227"/>
+                                <rect key="frame" x="365" y="0.0" width="10" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.4432278174" green="0.4432278174" blue="0.4432278174" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -174,7 +174,7 @@
                                 <color key="highlightedColor" red="0.4432278174" green="0.4432278174" blue="0.4432278174" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxW-XA-ExP">
-                                <rect key="frame" x="0.0" y="0.0" width="404" height="227"/>
+                                <rect key="frame" x="0.0" y="0.0" width="366" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.4432278174" green="0.4432278174" blue="0.4432278174" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
@@ -182,7 +182,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msl-QY-3pD">
-                                <rect key="frame" x="0.0" y="227" width="104" height="102"/>
+                                <rect key="frame" x="0.0" y="206" width="94" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7364394430476684" green="0.7364394430476684" blue="0.7364394430476684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -190,11 +190,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="18B-fv-YUg"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zUO-oR-bK9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdw-k9-CvU">
-                                <rect key="frame" x="104" y="227" width="104" height="102"/>
+                                <rect key="frame" x="94" y="206" width="94" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -202,11 +202,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ngw-rj-h3F"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bzP-Me-vjb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGY-Io-62B">
-                                <rect key="frame" x="208" y="227" width="104" height="102"/>
+                                <rect key="frame" x="188" y="206" width="95" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -214,11 +214,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VZq-PK-KQj"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9mS-HS-9MU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P85-79-3hi">
-                                <rect key="frame" x="312" y="227" width="102" height="102"/>
+                                <rect key="frame" x="283" y="206" width="92" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99548656089999998" green="0.58835399070000005" blue="0.22333305989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -226,11 +226,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressSuma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XeQ-b0-tmY"/>
+                                    <action selector="pulsarOperador:" destination="BYZ-38-t0r" eventType="touchUpInside" id="McI-Do-NM6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sU9-P5-Q3Q">
-                                <rect key="frame" x="0.0" y="328" width="104" height="102"/>
+                                <rect key="frame" x="0.0" y="297" width="94" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -238,11 +238,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nfe-3n-gzY"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bfF-Fb-8Ga"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gpf-YA-yvA">
-                                <rect key="frame" x="104" y="328" width="104" height="102"/>
+                                <rect key="frame" x="94" y="297" width="94" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -250,11 +250,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VR3-xO-4ks"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7QB-gV-EiZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYn-hZ-ePm">
-                                <rect key="frame" x="208" y="328" width="104" height="102"/>
+                                <rect key="frame" x="188" y="297" width="95" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73643944299999997" green="0.73643944299999997" blue="0.73643944299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -262,11 +262,11 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="press6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3r8-4p-Rz4"/>
+                                    <action selector="pulsarDigito:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zkJ-fS-qJt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVe-bW-NmO">
-                                <rect key="frame" x="312" y="328" width="102" height="102"/>
+                                <rect key="frame" x="283" y="297" width="92" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99548656089999998" green="0.58835399070000005" blue="0.22333305989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -274,7 +274,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressResta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mPH-9N-dPJ"/>
+                                    <action selector="pulsarOperador:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mVK-T0-dbK"/>
                                 </connections>
                             </button>
                         </subviews>

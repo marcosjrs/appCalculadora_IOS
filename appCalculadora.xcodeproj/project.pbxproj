@@ -15,6 +15,7 @@
 		55DF932A1F3377BF003D1825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF93281F3377BF003D1825 /* LaunchScreen.storyboard */; };
 		55DF93351F3377BF003D1825 /* appCalculadoraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93341F3377BF003D1825 /* appCalculadoraTests.m */; };
 		55DF93401F3377BF003D1825 /* appCalculadoraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF933F1F3377BF003D1825 /* appCalculadoraUITests.m */; };
+		55DF938E1F33961A003D1825 /* Calculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF938D1F33961A003D1825 /* Calculadora.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		55DF933B1F3377BF003D1825 /* appCalculadoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appCalculadoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DF933F1F3377BF003D1825 /* appCalculadoraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appCalculadoraUITests.m; sourceTree = "<group>"; };
 		55DF93411F3377BF003D1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DF938C1F33961A003D1825 /* Calculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculadora.h; sourceTree = "<group>"; };
+		55DF938D1F33961A003D1825 /* Calculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculadora.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				55DF931D1F3377BF003D1825 /* AppDelegate.h */,
 				55DF931E1F3377BF003D1825 /* AppDelegate.m */,
 				55DF93201F3377BF003D1825 /* ViewController.h */,
+				55DF938C1F33961A003D1825 /* Calculadora.h */,
+				55DF938D1F33961A003D1825 /* Calculadora.m */,
 				55DF93211F3377BF003D1825 /* ViewController.m */,
 				55DF93231F3377BF003D1825 /* Main.storyboard */,
 				55DF93261F3377BF003D1825 /* Assets.xcassets */,
@@ -276,6 +281,7 @@
 				55DF93221F3377BF003D1825 /* ViewController.m in Sources */,
 				55DF931F1F3377BF003D1825 /* AppDelegate.m in Sources */,
 				55DF931C1F3377BF003D1825 /* main.m in Sources */,
+				55DF938E1F33961A003D1825 /* Calculadora.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

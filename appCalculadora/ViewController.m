@@ -7,16 +7,17 @@
 //
 
 #import "ViewController.h"
+#import "Calculadora.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) Calculadora * calculadora;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.calculadora = [[Calculadora alloc] init];
 }
 
 
@@ -26,46 +27,20 @@
 }
 
 
-
-- (IBAction)pressM:(id)sender {
+- (IBAction)pulsarDigito:(UIButton *)sender {
+    [self.calculadora inputDigito:sender.currentTitle];
+    self.lblDisplay.text = [self.calculadora displayValor];
 }
-- (IBAction)presMPlus:(id)sender {
+- (IBAction)pulsarOperador:(UIButton *)sender {
+    [self.calculadora inputOperador:sender.currentTitle];
+    self.lblDisplay.text = [self.calculadora displayValor];
 }
-- (IBAction)pressMMinus:(id)sender {
+- (IBAction)pulsarIgual:(UIButton *)sender {    
+    [self.calculadora inputIgual];
+    self.lblDisplay.text = [self.calculadora displayValor];
 }
-- (IBAction)pressC:(id)sender {
+- (IBAction)pulsarBorrar:(UIButton *)sender {
+    [self.calculadora inputBorrar];
+    self.lblDisplay.text = [self.calculadora displayValor];
 }
-- (IBAction)pressDecimal:(id)sender {
-}
-- (IBAction)pressIgual:(id)sender {
-}
-- (IBAction)pressDivision:(id)sender {
-}
-- (IBAction)pressMultiplicacion:(id)sender {
-}
-- (IBAction)pressResta:(id)sender {
-}
-- (IBAction)pressSuma:(id)sender {
-}
-- (IBAction)press0:(id)sender {
-}
-- (IBAction)press1:(id)sender {
-}
-- (IBAction)press2:(id)sender {
-}
-- (IBAction)press3:(id)sender {
-}
-- (IBAction)press4:(id)sender {
-}
-- (IBAction)press5:(id)sender {
-}
-- (IBAction)press6:(id)sender {
-}
-- (IBAction)press7:(id)sender {
-}
-- (IBAction)press8:(id)sender {
-}
-- (IBAction)press9:(id)sender {
-}
-
 @end
